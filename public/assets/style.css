@@ -33,6 +33,13 @@ a {
 .login-form form input[type="checkbox"] {
     width: 7px;
     margin-right: 10px;
+    background-color: #fff;
+}
+.login-form form input[type="checkbox"]:checked {
+    background-color: #44d090; /* Background color when checked */
+}
+.form-check-label {
+    color: #44d090;
 }
 .login-form form button {
     width: 100%;
